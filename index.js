@@ -1,7 +1,7 @@
 //awrite a function that recieves a person object as an argument and returns the person's full name
 
 function returnFullName (person){
-    console.log(`${person.firstName} ${person.lastName}`)
+    console.log(`${person.firstName} ${person.lastName}'s email is ${person.email}.`)
 }
 
 const person = {
